@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Masjid Donation Dashboard</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="hero">
+      <img src="assets/images/masjid.jpg" alt="Masjid" class="hero-image" />
+      <div class="hero-text">
+        <h1>Build Your House in Jannah</h1>
+        <p>Help us secure the land and build Masjid-e-Mohammad Sayyed</p>
+        <blockquote>“Whoever builds a mosque for Allah, Allah will build for him a house in Jannah.”</blockquote>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="progress" class="card">
+      <h2>Funds Raised</h2>
+      <div class="progress-wrap">
+        <div class="progress-bar">
+          <span id="progress-fill" class="progress-fill"></span>
+        </div>
+        <div class="progress-stats">
+          <span id="raised-label"></span>
+          <span id="goal-label"></span>
+          <span id="percent-label"></span>
+        </div>
+        <p id="updated-label" class="muted"></p>
+      </div>
+    </section>
+
+    <section id="bank-details" class="card">
+      <h2>How to Donate</h2>
+      <div class="bank-grid">
+        <img src="assets/images/qr-code.png" alt="UPI QR Code" class="bank-image" />
+        <div class="bank-text">
+          <ul>
+            <li><strong>Account Name:</strong> S Abdul Khadar Zeelan</li>
+            <li><strong>Bank:</strong> SBI</li>
+            <li><strong>Account Number:</strong> 20332658102</li>
+            <li><strong>IFSC:</strong> SBIN0012719</li>
+            <li><strong>UPI ID:</strong> <span id="upi"></span></li>
+          </ul>
+          <button id="copy-upi" class="btn">Copy UPI</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About this Campaign</h2>
+      <p>We are raising funds to purchase and develop a <strong>1200 sq.ft</strong> plot for Masjid construction. Total cost is <strong>₹20,00,000</strong>. Your contribution is a Sadaqah-e-Jariyah.</p>
+    </section>
+
+    <section id="committee" class="card">
+      <h2>Committee Information</h2>
+      <p><strong>Masjid-e-Mohammad Sayyed Committee</strong><br>
+      Regd. No. 177 of 2022<br>
+      Joharapuram, Kurnool Dist., Andhra Pradesh – 518002</p>
+      <h3>Contact Numbers</h3>
+      <ul>
+        <li>Moulana Habeebullah Rashadi: +91 86183 72186</li>
+        <li>Zeelan: +91 79890 91477</li>
+        <li>Salzen Bhai: +91 90307 23322</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Thank you for your support. Your contribution is a Sadaqah-e-Jariyah.</p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
